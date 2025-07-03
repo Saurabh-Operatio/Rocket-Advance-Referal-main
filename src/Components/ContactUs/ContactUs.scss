@@ -1,0 +1,28 @@
+.contactUs {
+  border-radius: 12px;
+  background: var(--light3) !important;
+  padding: 24px 14px !important;
+  div {
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--dark1);
+    margin-bottom: 12px;
+    // word-break: break-word;
+    line-height: normal;
+    &.linkText {
+      text-decoration: underline;
+      color: var(--baseColor);
+    }
+  }
+}
+
+.share {
+  margin-top: 15px;
+  text-align: center;
+}

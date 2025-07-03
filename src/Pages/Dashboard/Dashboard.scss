@@ -1,0 +1,53 @@
+.dashboard {
+  // display: flex;
+  gap: 24px;
+
+
+  // @media (max-width:768px) {
+  //   display: block !important;
+  // }
+
+  @media (max-width:768px) {
+    display: block;
+  }
+
+  .dealsContainer {
+    width: 100%;
+    
+
+    @media (max-width:410px) {
+      flex-wrap: nowrap !important;
+
+    }
+  }
+
+  @media (max-width: 1366px) {
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 991px) {
+    gap: 16px;
+  }
+
+  &_inner {
+    // width: 100%;
+    display: flex;
+    gap: 30px;
+
+    @media (max-width: 1200px) {
+      flex-direction: column-reverse;
+    }
+
+    >div {
+      flex: 1;
+    }
+
+    .dealsCard {
+      flex: 1;
+
+      h2 {
+        color: var(--dark1);
+      }
+    }
+  }
+}
