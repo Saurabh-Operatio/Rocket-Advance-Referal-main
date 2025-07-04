@@ -38,8 +38,13 @@ export default function ContactUs() {
         <p style={{ marginBottom: 22 }}>
           Ask Us how you could grow your income today
         </p>
-        <p className="linkText">info@rocketadvance.ca</p>
-        <p>1-800-518-3577</p>
+      <p style={{ marginBottom: 22 }}>Get your commission advance today!</p>
+      <p className="linkText">
+        <a href="mailto:info@rocketadvance.ca">info@rocketadvance.ca</a>
+      </p>
+      <p>
+        <a href="tel:18005183577">1-800-518-3577</a>
+      </p<
       </div>
       <div className="contactUs share" onClick={copyTextToClipboard}>
         <div>Your Partner Link</div>
