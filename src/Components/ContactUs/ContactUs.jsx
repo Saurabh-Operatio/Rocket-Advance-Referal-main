@@ -44,7 +44,7 @@ export default function ContactUs() {
       </p>
       <p>
         <a href="tel:18005183577">1-800-518-3577</a>
-      </p<
+      </p>
       </div>
       <div className="contactUs share" onClick={copyTextToClipboard}>
         <div>Your Partner Link</div>
