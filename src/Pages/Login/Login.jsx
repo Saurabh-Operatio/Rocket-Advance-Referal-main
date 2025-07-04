@@ -114,11 +114,11 @@ export default function Login() {
               label: 'Agent',
               disabled: true,
             },
-            {
-              value: 'investor',
-              label: 'Investor',
-              disabled: true,
-            },
+            // {
+            //   value: 'investor',
+            //   label: 'Investor',
+            //   disabled: true,
+            // },
             {
               value: 'referral',
               label: 'Referral',
