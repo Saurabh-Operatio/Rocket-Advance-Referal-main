@@ -119,6 +119,7 @@ export default function Login() {
             //   label: 'Investor',
             //   disabled: true,
             // },
+            
             {
               value: 'referral',
               label: 'Referral',
